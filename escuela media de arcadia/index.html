@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela Media de Arcadia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0066cc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        section img {
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* Galería de imágenes exteriores */
+        .galeria-exterior img {
+            width: 300px;
+            margin: 10px;
+        }
+
+        /* Galería de imágenes interiores (con menos espacio) */
+        .galeria-interior {
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* 🔹 acá reducimos el espacio entre imágenes */
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            margin-top: 15px;
+        }
+        .galeria-interior img {
+            width: 250px;
+            border-radius: 8px;
+        }
+
+        /* Sección del director */
+        .director {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .director img {
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Escuela Media de Arcadia</h1>
+        <p>Formando estudiantes con compromiso y valores</p>
+    </header>
+
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="historia">
+        <h2>Nuestra Historia</h2>
+        <h3>
+         La Escuela Media de Arcadia, fundada en 2006, se encuentra ubicada en San Martín 104, frente a la Escuela Primaria Dr. Pedro León Cornet, en la localidad de Arcadia, departamento Chicligasta, Tucumán.
+
+
+ Entre sus actividades más destacadas se encuentran la maratón estudiantil, las muestras pedagógicas donde los alumnos exponen proyectos y producciones, así como viajes educativos y recreativos que enriquecen la experiencia formativa.
+
+
+Actualmente, la escuela está dirigida por el profesor Nelson Serrillo, quien impulsa proyectos que buscan mantener a la institución activa, participativa y vinculada con la comunidad.   
+        </h3>
+
+        <!-- 🔹 Foto del director (abajo de la historia) -->
+        <div class="director">
+            <h3>director Nelson Serrillo</h3>
+            <img src="C:\Users\LUCHI\Desktop\director\WhatsApp Image 2025-10-07 at 09.52.21.jpeg" alt="Director Nelson Serrillo">
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Fotos</h2>
+
+        <h3>Imágenes de la escuela por fuera:</h3>
+        <div class="galeria-exterior">
+            <img src="C:\Users\LUCHI\Desktop\escuela media de arcadia\WhatsApp Image 2025-10-06 at 15.54.49 (2).jpeg" alt="Fachada de la escuela">
+            <img src="C:\Users\LUCHI\Desktop\escuela media de arcadia\WhatsApp Image 2025-10-06 at 15.54.50.jpeg" alt="Vista exterior de la escuela">
+            <style>
+ 
+</style>
+        </div>
+
+        <h3>Algunas imágenes de las instalaciones por dentro:</h3>
+        <div class="galeria-interior">
+            <img src="C:\Users\LUCHI\Desktop\escuela media de arcadia\WhatsApp Image 2025-10-06 at 15.51.44 (1).jpeg" alt="Interior - laboratorio">
+            <img src="C:\Users\LUCHI\Desktop\escuela media de arcadia\WhatsApp Image 2025-10-06 at 15.51.44 (2).jpeg" alt="Interior - aula">
+            <img src="C:\Users\LUCHI\Desktop\escuela media de arcadia\WhatsApp Image 2025-10-06 at 15.51.44.jpeg" alt="Interior - biblioteca">
+            <img src="C:\Users\LUCHI\Desktop\escuela media de arcadia\WhatsApp Image 2025-10-06 at 15.51.44 (3).jpeg" alt="Interior - pasillo">
+            <style>
+ 
+</style>
+        </div>
+    </section>
+
+    <!-- =========================
+     SECCIÓN: EQUIPO DOCENTE
+========================= -->
+<style>
+.contenedor-imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px; /* espacio entre bloques */
+    justify-items: center;
+    margin: 30px 0;
+}
+
+.bloque {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.bloque img {
+    width: 200px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.bloque h3 {
+    margin: 8px 0 6px;
+    color: #004080;
+}
+
+.bloque p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+</style>
+
+<section id="equipo">
+    <h2>preceptores:</h2>
+    <h3>Turno Mañana</h3>
+
+    <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\preceptores\WhatsApp Image 2025-10-07 at 09.52.21 (3).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Preceptora Sandra </h3>
+            <p><strong>primer sector</strong></p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\preceptores\WhatsApp Image 2025-10-07 at 09.52.20 (2).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Preceptor:Pablo</h3>
+            <p><strong>segundo sector</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="equipo">
+    <h2>Equipo Docente</h2>
+    <h3>Turno Mañana</h3>
+
+    <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores 2\WhatsApp Image 2025-11-04 at 08.09.30.jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Prof. Estefanía Salerno</h3>
+            <p><strong>Materias:</strong></p>
+            <p>Tecnología de los Sistemas Informáticos</p>
+            <p>Tecnología de la Conectividad</p>
+            <p>Tecnología Multimedial</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.14.jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Prof. Nicolás Juárez</h3>
+            <p><strong>Materias:</strong></p>
+            <p>Aplicaciones Informáticas</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.19.jpeg" alt="Profesor/a">
+            <h3>Profesora: Viviana Carrizo</h3>
+            <p><strong>materias:</strong></p>
+            <p>Proyecto tecnologico</p>
+        </div>
+    </div>
+</section>
+
+<section id="equipo">
+
+    <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.17.jpeg" alt="Profesora monica">
+            <h3>Profesora:Monica Ponce<h3>
+            <p><strong>Materias:</strong></p>
+            <p>lengua y literatura</p>
+            <p>historia</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.14.jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesora: Cristina Benicio</h3>
+            <p><strong>Materias:</strong></p>
+            <p>lengua y literatura</p>
+        </div>
+    </div>
+</section>
+
+ <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="Imagen de WhatsApp 2025-10-06 a las 14.06.52_00b5342e.jpg" alt="Profesora Estefanía Salerno">
+            <h3>Profesora:Nanci Cornejo</h3>
+            <p><strong>Materias:</strong></p>
+            <p>matematicas</p>
+            <p>fisica</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\preceptores\WhatsApp Image 2025-10-07 at 09.52.21 (3).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesora: Sandra </h3>
+            <p><strong>Materias:</strong></p>
+            <p>matematicas</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.19 (2).jpeg" alt="Profesor/a">
+            <h3>Profesor: Rodriguez</h3>
+            <p><strong>materias:</strong></p>
+            <p>fisica</p>
+        </div>
+    </div>
+</section>
+
+<section id="equipo">
+
+    <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.18.jpeg" alt="Profesora monica">
+            <h3>Profesora:Laura Romano<h3>
+            <p><strong>Materias:</strong></p>
+            <p>biologia</p>
+            <p>geografia</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.20 (1).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesora: Chintia Oteo</h3>
+            <p><strong>Materias:</strong></p>
+            <p>geografia</p>
+            <p>acompañamiento y tutoria</p>
+        </div>
+    </div>
+</section>
+
+ <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.16 (1).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Profesora: Angela Mansilla</h3>
+            <p><strong>Materias:</strong></p>
+            <p>inclusion</p>
+            <p>acompañamiento</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.17 (2).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesora:Sara Nuñez</h3>
+            <p><strong>Materias:</strong></p>
+            <p>salud y adolescencia</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.16.jpeg" alt="Profesor/a">
+            <h3>Profesora:Carolina Mercado</h3>
+            <p><strong>materia:</strong></p>
+            <p>construccion y ciudadania</p>
+        </div>
+    </div>
+</section>
+
+ <div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.13 (2).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Profesora: Jorgelina Gallo</h3>
+            <p><strong>Materias:</strong></p>
+            <p>quimica</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.13 (1).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesora: Beatriz Soria </h3>
+            <p><strong>Materias:</strong></p>
+            <p>quimica</p>
+        </div>
+    </div>
+</section>
+
+<div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.17 (1).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Profesor: Luciano Urbano</h3>
+            <p><strong>Materias:</strong></p>
+            <p>ingles</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.16 (2).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesor: Walter </h3>
+            <p><strong>Materias:</strong></p>
+            <p>ingles</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.19 (1).jpeg" alt="Profesor/a">
+            <h3>Profesora:Isolina</h3>
+            <p><strong>materia:</strong></p>
+            <p>ingles</p>
+        </div>
+    </div>
+</section>
+
+<div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.21 (1).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Profesora: Carla Dip</h3>
+            <p><strong>Materias:</strong></p>
+            <p>politica y ciudadania</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.15.jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesora:Laura Correa</h3>
+            <p><strong>Materias:</strong></p>
+            <p>tecnologia</p>
+        </div>
+    </div>
+</section>
+
+<div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores 2\WhatsApp Image 2025-11-04 at 08.09.32.jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Profesor: Damian </h3>
+            <p><strong>Materias:</strong></p>
+            <p>gimnasia</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores\WhatsApp Image 2025-10-07 at 09.52.14 (1).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Profesor:Sergio</h3>
+            <p><strong>Materias:</strong></p>
+            <p>gimnasia</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores 2\WhatsApp Image 2025-11-04 at 08.09.29.jpeg" alt="Profesor/a">
+            <h3>Profesora:Patrcia Montoro</h3>
+            <p><strong>materia:</strong></p>
+            <p>dibujo</p>
+        </div>
+    </div>
+</section>
+
+<div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores 2\WhatsApp Image 2025-11-04 at 08.09.32 (1).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Profesora: Andrea</h3>
+            <p><strong>Materias:</strong></p>
+            <p>biologia</p>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\profesores 2\WhatsApp Image 2025-11-04 at 08.09.34.jpeg" alt="Profesor Nicolás Juárez">
+            <h3>asesora</h3>
+        </div>
+    </div>
+</section>
+
+<h2>el personal auxiliar:</h2>
+
+<div class="contenedor-imagenes">
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\persona auxiliar\WhatsApp Image 2025-10-07 at 09.52.14 (3).jpeg" alt="Profesora Estefanía Salerno">
+            <h3>Cristian y Antonio</h3>
+        </div>
+
+        <div class="bloque">
+            <img src="C:\Users\LUCHI\Desktop\persona auxiliar\WhatsApp Image 2025-10-07 at 09.52.15 (1).jpeg" alt="Profesor Nicolás Juárez">
+            <h3>Cinthia y Gladis</h3>
+        </div>
+    </div>
+</section>
+
+
+
+
+<h2>La Escuela ofrece educación desde primero a sexto año. Los estudiantes pueden cursar diferentes orientaciones:</h2>
+<ul>
+  <h3>Título en <strong>Informática</strong> al completar el ciclo de la mañana.</h3>
+  <h3>Título en <strong>Economía</strong> al completar el ciclo de la tarde.</h3>
+
+
+   <h2>esta dividida en dos sectores: </h2>
+   <h3>primer sector:ciclo basico
+    1ro a 3er año
+   </h3>
+
+<h3>segundo sector: ciclo orientado
+    4to a 6to año
+</h3>
+
+ <!-- =========================
+     SECCIÓN: GALERÍA DE FOTOS
+========================= -->
+<section id="galeria">
+    <h2>Galería de Fotos</h2>
+
+    <h3>Imágenes de la escuela por fuera:</h3>
+    <div class="galeria-exterior">
+        <img src="rey.jpg" alt="Fachada de la escuela">
+        <img src="fiesta.jpg" alt="Vista exterior de la escuela">
+        <img src="fiesta 2.jpg" alt="Vista exterior de la escuela">
+    </div>
+
+    <h3>Algunas imágenes de las instalaciones por dentro:</h3>
+    <div class="galeria-interior">
+        <img src="maraton..jpg" alt="Interior - laboratorio">
+        <img src="maratonn 3.jpg" alt="Interior - aula">
+        <img src="maraton 2.jpg" alt="Interior - biblioteca">
+    </div>
+</section>
+
+<style>
+/* ====== ESTILOS DE GALERÍA ====== */
+
+/* Contenedores generales */
+.galeria-exterior,
+.galeria-interior {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   /* Permite que bajen si no entran */
+    gap: 10px;         /* 🔹 Espacio entre imágenes */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Todas las imágenes (afuera y adentro) */
+.galeria-exterior img,
+.galeria-interior img {
+    width: 250px;      /* 🔹 Tamaño fijo para todas */
+    height: auto;      /* Mantiene proporción */
+    border-radius: 10px;
+    margin: 5px;
+    object-fit: cover; /* Ajusta imagen al recuadro */
+    transition: transform 0.3s ease;
+}
+
+/* Efecto suave al pasar el mouse */
+.galeria-exterior img:hover,
+.galeria-interior img:hover {
+    transform: scale(1.05);
+}
+
+/* Títulos */
+#galeria h2 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#galeria h3 {
+    color: #0066cc;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+</style>
+
+
+
+
+<!-- =========================
+     UBICACIÓN DE LA ESCUELA
+========================= -->
+<section id="ubicacion">
+    <h2>Ubicación de la Escuela</h2>
+    <p>La Escuela Media de Arcadia se encuentra en San Martín 104, Arcadia, departamento Chicligasta, Tucumán.</p>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3545.135642013251!2d-65.58055790534598!3d-27.308943169689577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cfea0727ea33%3A0x36689fdb7d5e195e!2sEscuela%20Media%20de%20Arcadia!5e0!3m2!1ses-419!2sar!4v1758591139230!5m2!1ses-419!2sar"
+        width="400"
+        height="300"
+        style="border:0; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Escuela Media de Arcadia - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reseñas</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .contenedor-reseñas {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .reseña {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+
+    .reseña:last-child {
+      border-bottom: none;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-family: inherit;
+    }
+
+    button {
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0b7dda;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🗣 Reseñas</h2>
+
+  <div class="contenedor-reseñas">
+  
+    <form id="form-reseña">
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+      <textarea id="comentario" placeholder="Escribí tu reseña aquí..." required></textarea>
+      <button type="submit">Enviar reseña</button>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("form-reseña");
+const listaReseñas = document.getElementById("lista-reseñas"); // Cambio de nombre de variable para claridad
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const nombre = document.getElementById("nombre").value.trim();
+  const comentario = document.getElementById("comentario").value.trim();
+
+  if (nombre && comentario) {
+    const nueva = document.createElement("div");
+    nueva.classList.add("reseña"); // 👈 ¡CORREGIDO! ahora es ClassList
+
+    // Sanitización básica para evitar inyección XSS (¡RECOMENDADO!)
+    const nombreSeguro = nombre.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const comentarioSeguro = comentario.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    nueva.innerHTML = `<strong>${nombreSeguro}:</strong> ${comentarioSeguro}`;
+    listaReseñas.appendChild(nueva); // 👈 Usando la variable corregida listaReseñas
+
+    form.reset();
+  }
+});
+  </script>
+
+</body>
+</html>
